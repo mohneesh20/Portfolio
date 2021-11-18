@@ -1,0 +1,47 @@
+.container{
+    background-color: rgb(27, 27, 27);
+    color: whitesmoke;
+    width: 100%;
+    padding: 50px 150px ;
+    border-top: 3px solid goldenrod;
+    height: 300px;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Roboto Mono';
+    font-size: 18px;
+}
+.title{
+    margin-top: 0px;
+}
+.linkTitle{
+    text-decoration:underline;
+}
+.link{
+    display: flex;
+    align-items: center;
+}
+.cardL{
+    flex:2;
+}
+.cardS{
+    flex:1;
+    margin:0 20px;
+}
+.cardItem{
+    font-size: 20px;
+}
+@media screen and (max-width:480px) {
+    .container{
+      height: auto;
+      flex-direction: column;
+    }    
+    .title,.linkTitle{
+        font-size: 30px;
+        margin-bottom:20px ;
+    }
+    .cardItem{
+        text-align: center;
+        margin: 20px 0;
+    }
+}
