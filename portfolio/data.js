@@ -10,20 +10,20 @@ export const data=[
 {
     id:2,
     name:'Social Media',
-    title:'CHAT APP',
-    desc:'Social Media application built using React-Native.',
+    title:'SOCIAL MEDIA/CHAT APP',
+    desc:'Social Media Application with live chatting using web-sockets.',
     photo:'chat.png',
     linkTo:'https://github.com/mohneesh20/ChatApp',
 },
-{
-    id:3,
-    name:'Netflix clone',
-    title:'Movie App',
-    desc:'Movie application built using MERN stack.',
-    photo:'netflix.png',
-    linkTo:'https://github.com/mohneesh20/TicTacToe',
+// {
+//     id:3,
+//     name:'Netflix clone',
+//     title:'Movie App',
+//     desc:'Movie application built using MERN stack.',
+//     photo:'netflix.png',
+//     linkTo:'https://github.com/mohneesh20/TicTacToe',
 
-},
+// },
 {
     id:4,
     name:'MedlifeCare',

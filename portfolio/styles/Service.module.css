@@ -71,6 +71,7 @@
     font-size: 20px;
     text-transform: uppercase;
     color: rgb(93, 141, 22);
+    /* align-self: center; */
 }
 .service:hover .desc{
     opacity: 1;

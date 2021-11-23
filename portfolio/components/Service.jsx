@@ -4,7 +4,7 @@ import Image from 'next/image';
 const Service=({services})=>{
     return(
         <div className={styles.container}>
-            <h1 className={styles.title}>My Projects</h1>
+            <h1 className={styles.title}>MY PROJECTS</h1>
             <div className={styles.services}>
                 {
                     services.map((service)=>(

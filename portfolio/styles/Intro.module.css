@@ -7,13 +7,16 @@
     border-top: 3px solid goldenrod;
 }
 .title{
-    color:goldenrod
+    color:goldenrod;
 }
 .card{
     flex: 1;
     padding: 0 50px;
     position: relative;
     object-fit: cover;
+}
+.desc{
+    font-size: 16px;
 }
 .button{
     background-color: transparent;
