@@ -13,7 +13,7 @@ const Navbar=()=>{
     return(
         <div className={styles.container}>
         <Link href='/'>
-            <Image alt='' width="60px" height='40px' src={`${folder}/image/logo.jpg`} layout='fill'></Image>
+            <img alt='' width="60px" height='40px' src={`/image/logo.jpg`}></img>
             {/* <img alt='' width="60px" height='40px' src={`/image/logo.jpg`}></img> */}
         </Link>
 
