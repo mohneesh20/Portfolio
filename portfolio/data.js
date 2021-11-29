@@ -2,34 +2,34 @@ export const data=[
 {
     id:1,
     name:'e-commerce',
-    title:'E-Commerce',
-    desc:'Simple E-commerce application built using MERN stack.',
+    title:'E-Commerce Store',
+    desc:'E-commerce store where user is authenticated and authorized using jwt token and user can search, filter and add products in cart.',
     photo:'e-com.png',
     linkTo:'https://github.com/mohneesh20/E-commerce'
 },
 {
     id:2,
     name:'Social Media',
-    title:'SOCIAL MEDIA/CHAT APP',
+    title:'Social Media/Chat App',
     desc:'Social Media Application with live chatting using web-sockets.',
     photo:'chat.png',
     linkTo:'https://github.com/mohneesh20/ChatApp',
 },
-// {
-//     id:3,
-//     name:'Netflix clone',
-//     title:'Movie App',
-//     desc:'Movie application built using MERN stack.',
-//     photo:'netflix.png',
-//     linkTo:'https://github.com/mohneesh20/TicTacToe',
-
-// },
 {
-    id:4,
+    id:3,
     name:'MedlifeCare',
-    title:'Medlife',
-    desc:'CRUD application for medicine data.',
+    title:'MedlifeCare',
+    desc:'CRUD application for medicine data available for donation which can be user searched by medicine name and comapany.',
     photo:'software.png',
     linkTo:'https://github.com/mohneesh20/medlife-client',
-},       
+}, 
+{
+    id:4,
+    name:'ManPowerServices',
+    title:'ManPowerServices',
+    desc:'CRUD App with two modules-customer and worker.In customer module user can search and rate worker and in worker module user can upload its portfolio.',
+    photo:'manpower.png',
+    linkTo:'https://github.com/mohneesh20/MedlifePower',
+
+},      
 ]
