@@ -1,18 +1,19 @@
 import styles from '../styles/Navbar.module.css';
 import Link from 'next/link';
+import Image from 'next/image';
 import { useState } from 'react';
 const Navbar=()=>{
     const folder=process.env.NEXT_PUBLIC_URL;
     console.log(folder);
     const [open,setOpen]=useState(false);
     const downloadPdf=()=>{
-        window.location.href=`${folder}/image/Resume.pdf`;
+        window.location.href=`/image/Resume.pdf`;
         // window.location.href=`/image/Resume.pdf`;
     }
     return(
         <div className={styles.container}>
         <Link href='/'>
-            <img alt='' width="60px" height='40px' src={`${folder}/image/logo.jpg`}></img>
+            <Image alt='' width="60px" height='40px' src={`${folder}/image/logo.jpg`} layout='fill'></Image>
             {/* <img alt='' width="60px" height='40px' src={`/image/logo.jpg`}></img> */}
         </Link>
 
