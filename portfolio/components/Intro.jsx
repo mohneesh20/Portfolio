@@ -7,7 +7,7 @@ const Intro=()=>{
             {/* <Circle backgroundColor="rgb(93, 141, 22)" top='-2vh' left='-80vw'/> */}
            <div className={styles.card}>
                 <h3 style={{color:'lightgray',fontSize:'large',marginTop:'100px'}}>Hi, my name is</h3>   
-                <h1 className={styles.title} style={{fontSize:'50px'}}>Mohneesh Bansal</h1>
+                <h1 className={styles.title} style={{fontSize:'50px'}}>MOHNEESH BANSAL</h1>
                 <h2 style={{color:'lightgray',fontSize:'25px'}}>I create Web-Applications.</h2>
                 <p className={styles.desc}>
                     I&apos;m a Full-stack developer.I graduated from <span className={styles.title}>Thapar University</span> in 2023 with Bachelor&apos;s in Computer Engineering.Skilled in <span className={styles.title}>Reactjs,Nodejs,C++,MongoDB,HTML,CSS,Python,C,React-Native</span>.
