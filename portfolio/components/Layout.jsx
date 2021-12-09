@@ -6,7 +6,7 @@ const Layout=({children})=>{
         <Navbar/>
         {children}
         <Footer/>
-        <div style={{backgroundColor:'black',color:'white',textAlign:'center',height:'30px',fontSize:'20px'}}>Copyright@All Rights Reserved</div>
+        <div style={{backgroundColor:'black',color:'white',textAlign:'center',height:'20px',fontSize:'15px'}}>Copyright@All Rights Reserved</div>
         </>
     )
 }

@@ -30,6 +30,16 @@
 }
 .cardItem{
     font-size: 20px;
+    font-family: 'Roboto Mono';
+}
+.cardItem2{
+    font-size: 20px;
+    font-family: 'Roboto Mono',monospace;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    /* align-items: center; */
+    /* background-color: goldenrod; */
 }
 @media screen and (max-width:480px) {
     .container{
@@ -44,4 +54,7 @@
         text-align: center;
         margin: 20px 0;
     }
+    /* .cardItem2{
+        flex-direction: column;
+    } */
 }

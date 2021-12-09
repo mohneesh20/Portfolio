@@ -28,12 +28,12 @@ const Footer=()=>{
             </div>
         </div>
         <div className={styles.cardS}>
-        <div className={styles.cardItem}>
+        <div className={styles.cardItem2}>
                <span style={{fontSize:'40px',textDecoration:'underline',color:'rgb(93, 141, 22)'}}>FOLLOW US:</span>
-               <br/><Facebook/><Link href='https://www.facebook.com/mohneesh.bansal.9/'> Facebook</Link>
-               <br/><LinkedIn/><Link href='https://www.linkedin.com/in/mohneesh-bansal-312194191/' passHref> LinkedIn</Link>
-               <br/><Instagram/><Link href='https://www.instagram.com/mohneeshbansal/'> Instagram</Link>
-               <br/><Twitter/><Link href='https://twitter.com/MohneeshBansal1'> Twitter</Link>
+               <span style={{display:'flex',fontSize:'20.0px',alignItems:'center'}}><Facebook style={{color:'#0059b3',marginRight:'5px'}} fontSize='large'/><Link href='https://www.facebook.com/mohneesh.bansal.9/'> FACEBOOK</Link></span>
+               <span style={{display:'flex',fontSize:'20.0px',alignItems:'center'}}><LinkedIn style={{color:'#0059b3',marginRight:'5px'}} fontSize='large'/><Link href='https://www.linkedin.com/in/mohneesh-bansal-312194191/'> LINKDIN</Link></span>
+               <span style={{display:'flex',fontSize:'20.0px',alignItems:'center'}}><Instagram style={{color:'#ff66d9',marginRight:'5px'}} fontSize='large'/><Link href='https://www.instagram.com/mohneeshbansal/'> INSTAGRAM</Link></span>
+               <span style={{display:'flex',fontSize:'20.0px',alignItems:'center'}}><Twitter style={{color:'#0059b3',marginRight:'5px'}} fontSize='large'/><Link href='https://twitter.com/MohneeshBansal1'> TWITTER</Link></span>
             </div>
         </div>
         </div>

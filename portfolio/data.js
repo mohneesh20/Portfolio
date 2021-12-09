@@ -19,8 +19,8 @@ export const data=[
     id:3,
     name:'MedlifeCare',
     title:'MedlifeCare',
-    desc:'CRUD application for medicine data available for donation which can be user searched by medicine name and comapany.',
-    photo:'software.png',
+    desc:'CRUD application for medicine data available for donation which can be searched by medicine name and comapany.',
+    photo:'medicine.png',
     linkTo:'https://github.com/mohneesh20/medlife-client',
 }, 
 {

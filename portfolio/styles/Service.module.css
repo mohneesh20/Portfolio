@@ -85,21 +85,26 @@
     .service{
         height: 300px;
         justify-content: center;
-    }   
+    }
+    .service:hover{
+        height: 300px;
+        justify-content: center;
+    }  
     .card{
         padding: 50px;
         align-items: center;
         justify-content: center;
         text-align: center;
     }
-    .desc{
+    /* .desc{
         display: none;
-    }
+    } */
     .title{
         font-size: 30px;
         margin-bottom:20px ;
     }
     .cat{
-        font-size: 10px;
+        font-size: 15.0px;
+        font-weight:bolder;
     }
 }
