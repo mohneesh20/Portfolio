@@ -41,6 +41,7 @@
     .container{
         flex-direction: column;
         height: 100vh;
+        margin-top: -20px;
     }    
     .card{
         padding: 5px;
